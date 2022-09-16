@@ -5,9 +5,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#000"
+    android:id="@+id/layout"
+    >
 
-
-
+    <TextView
+        android:id="@+id/textSzin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="(0,0,0)"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
 
 </RelativeLayout>
